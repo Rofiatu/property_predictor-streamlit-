@@ -191,8 +191,8 @@ for i, models in enumerate(pipelines):
 print(f'Classifier with the best accuracy: {pipeline_dict[best_classifier]}')
 
 # save your model
-joblib.dump(xgb_model, 'house_classification_model.pkl')
-joblib.dump(rfm, 'home_classification_model.pkl')
+# joblib.dump(xgb_model, 'house_classification_model.pkl')
+# joblib.dump(rfm, 'home_classification_model.pkl')
 joblib.dump(pipeline_rf, 'home_pipeline_model.pkl')
 
 # ------------------- STREAMLIT DEPLOYMENT ----------------------
